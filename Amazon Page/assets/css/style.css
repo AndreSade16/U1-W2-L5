@@ -1,0 +1,197 @@
+/* Your styles here */
+
+/* DEFAULT SETTINGS */
+
+body {
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.green-a {
+  color: #07619d;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+
+.dark-bg {
+  background-color: #222f3f;
+}
+
+.light-bg {
+  background-color: #364759;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+/* HEADER */
+
+header {
+  height: fit-content;
+}
+
+ul {
+  height: 1rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+}
+
+#topbar {
+  height: 2.5rem;
+  padding: 0.7rem 0 1rem 1.7rem;
+}
+
+#header-img-container {
+  height: 100%;
+}
+
+#header-img-container img {
+  height: 100%;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+  width: fit-content;
+  margin-right: 2%;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* MAIN */
+
+main {
+  padding: 2%;
+  background-color: #e9edee;
+}
+
+#gift-cards-shop {
+  background-color: #f56600;
+  color: white;
+  padding: 0.6rem 0;
+  margin-bottom: 2%;
+}
+
+#gift-guides {
+  background-image: url(../images/bg-image.png);
+  height: 8rem;
+  color: white;
+  padding-top: 4rem;
+  margin-bottom: 2%;
+}
+
+#gift-guides h2 {
+  margin-bottom: 2rem;
+}
+
+#gift-carousel {
+  background-color: white;
+  height: 28rem;
+  padding: 1.5% 0 0;
+}
+
+#carousel-text {
+  padding: 0 2%;
+}
+
+#gift-carousel h3 {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+#carousel-scroll-container {
+  height: 95%;
+  margin: 0;
+}
+
+.carousel-container {
+  border-radius: 17px;
+  height: 90%;
+  width: 23%;
+  display: inline-block;
+  contain: strict;
+  box-shadow: 4px 0px 9px -5px #000000;
+}
+
+#carousel-1 {
+  background-image: url(../images/img_1.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-left: 1.2%;
+  margin-right: 1.5%;
+}
+#carousel-2 {
+  background-image: url(../images/img_2.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-right: 1.5%;
+}
+#carousel-3 {
+  background-image: url(../images/img_3.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-right: 1.5%;
+}
+#carousel-4 {
+  background-image: url(../images/img_4.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-right: 0;
+}
+
+.large-img-container {
+  width: 100%;
+  margin-top: 2%;
+}
+
+.large-img-container img {
+  width: 100%;
+}
+
+.caption h3 {
+  font-size: 1.3rem;
+  margin-top: 0.3%;
+}
+
+/* FOOTER */
+
+#upscroll-container {
+  height: 2.5rem;
+  font-size: 1rem;
+  padding-top: 1.5%;
+}
+
+#upscroll-container a {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#bottom-bar {
+  padding: 4% 0;
+}
+
+footer img {
+  width: 12%;
+}
